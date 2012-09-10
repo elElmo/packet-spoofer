@@ -1,4 +1,9 @@
+#ifndef _SPOOF_PACKET_H_
+#define _SPOOF_PACKET_H_
+
 struct spoof_packet {
-	void* buffer;
+	char* buffer;
 	int length;
 };
+
+#endif

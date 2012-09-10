@@ -3,7 +3,7 @@ OBJROOT=obj
 OBJS=$(addprefix $(OBJDIR)/,spoofer.o)
 CC=gcc
 DEBUG=1
-CFLAGS := -I. -Wall -Werror -DDEBUG=$(DEBUG) -std=gnu99
+CFLAGS := -I./include -Wall -Werror -DDEBUG=$(DEBUG) -std=gnu99
 BIN=spoofer
 
 all: clean build
